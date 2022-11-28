@@ -1,0 +1,36 @@
+.offer-header {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+.offer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 94px 0px;
+  margin: 0px;
+
+  &__picture {
+    position: relative;
+  }
+  &__description {
+    width: 100%;
+    position: absolute;
+    bottom: 4px;
+    padding-block: 27px;
+    background: var(--offer-description-background);
+  }
+  &__paragraph {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-background);
+  }
+}

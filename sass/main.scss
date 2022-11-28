@@ -1,0 +1,29 @@
+@import "./utils/variables.scss";
+@import "./utils/globals.scss";
+
+@import "./components/header.scss";
+@import "./components/navigation.scss";
+@import "./components/contact.scss";
+@import "./components/first_section.scss";
+
+@import "./utils/backdrop.scss";
+@import "./utils/hidden.scss";
+
+@import "./components/modal.scss";
+@import "./components/modal_form.scss";
+@import "./components/form_bottom.scss";
+
+@import "./utils/checkbox.scss";
+
+@import "./components/second_section.scss";
+@import "./components/offer_section.scss";
+@import "./components/team_section.scss";
+@import "./components/clients_section.scss";
+@import "./components/footer.scss";
+@import "./components/newsletter.scss";
+
+@import "./utils/overlay.scss";
+
+@import "./components/portfolio_grid.scss";
+
+@import "./components/portfolio_buttons.scss";

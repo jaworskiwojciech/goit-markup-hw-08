@@ -1,0 +1,25 @@
+.modal-bottom__description input {
+  position: absolute;
+  cursor: pointer;
+  margin-right: 8px;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+.modal-bottom__checkmark {
+  position: absolute;
+  top: 6px;
+  left: -24px;
+  height: 16px;
+  width: 16px;
+  fill: var(--white-background);
+  border: 1px solid var(--fieldset-border-color);
+  border-radius: 2px;
+  background-color: var(--white-background);
+  transition: background-color var(--transition-duration) var(--cubic-bezier),
+    border-color var(--transition-duration) var(--cubic-bezier);
+}
+.modal-bottom__description input:checked ~ .modal-bottom__checkmark {
+  border-color: var(--blue-color);
+  background-color: var(--blue-color);
+}

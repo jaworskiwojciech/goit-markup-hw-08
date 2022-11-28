@@ -1,0 +1,32 @@
+.contact-item {
+  display: flex;
+  align-items: center;
+  color: var(--contact-color);
+  fill: var(--contact-color);
+  text-decoration: none;
+  transition: color var(--transition-duration) var(--cubic-bezier),
+    fill var(--transition-duration) var(--cubic-bezier);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+
+  &:hover,
+  &:focus {
+    color: var(--blue-color);
+    fill: var(--blue-color);
+  }
+  &:hover &__icon,
+  &:focus &__icon {
+    fill: var(--blue-color);
+  }
+  &__icon {
+    fill: var(--contact-color);
+    margin-right: 5px;
+    transition: fill var(--transition-duration) var(--cubic-bezier);
+
+    &:hover,
+    &:focus {
+      fill: var(--blue-color);
+    }
+  }
+}
