@@ -16,6 +16,13 @@
   </head>
   <body>
     <header class="wrapper">
+      <div class="mobile-menu d-none">
+        <button class="toggle-menu">
+          <svg class="modal__button-close-x" width="30" height="30">
+            <use href="./images/icons.svg#icon-close-x"></use>
+          </svg>
+        </button>
+      </div>
       <div class="header container">
         <a href="index.html" class="logo"
           >Web<span class="logo__studio">Studio</span></a
@@ -33,6 +40,11 @@
             <li><a href="#" class="navigation__item">Kontakt</a></li>
           </ul>
         </nav>
+        <button class="menu-opener">
+          <svg class="contact-item__icon" width="40" height="40">
+            <use href="./images/icons.svg#menu-opener"></use>
+          </svg>
+        </button>
         <a class="contact-item" href="mailto:info@example.com"
           ><svg class="contact-item__icon" width="16" height="12">
             <use href="./images/icons.svg#icon-envelope"></use>
@@ -481,5 +493,6 @@
       </div>
     </footer>
     <script src="./assets/modal.js"></script>
+    <script src="./assets/menu.js"></script>
   </body>
 </html>

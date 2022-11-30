@@ -1,0 +1,30 @@
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 2;
+}
+
+.toggle-menu {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.menu-opener {
+  //   display: none;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  margin: 0;
+
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
+}
