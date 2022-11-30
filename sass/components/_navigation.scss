@@ -1,9 +1,19 @@
 .navigation {
-  display: flex;
+  display: none;
   justify-content: space-between;
   gap: 46px;
   margin-block: 0;
   margin-right: 360px;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    // margin-right: auto;
+  }
 
   &__item {
     font-weight: 500;
