@@ -1,19 +1,27 @@
 .team {
   background-color: var(--gray-background);
   padding-block: 94px;
-  
+
   &__header {
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 50px;
+      font-size: 36px;
+    }
   }
   &__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0 auto;
     padding: 0px;

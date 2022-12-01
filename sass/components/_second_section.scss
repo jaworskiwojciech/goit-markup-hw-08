@@ -21,6 +21,7 @@
   border-radius: 4px;
   padding: 25px 100px;
   background-color: var(--gray-background);
+
   @media screen and (min-width: 768px) {
     padding: 25px 142px;
   }
@@ -43,6 +44,7 @@
   color: var(--description-color);
 }
 .section-secondary__item {
+  
   @media screen and (min-width: 768px) {
     flex-basis: 354px;
   }
