@@ -19,8 +19,8 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     width: 450px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    margin-inline: auto;
+    margin-bottom: 20px;
 
     @media screen and (min-width: 1200px) {
       width: 358px;
@@ -31,6 +31,7 @@
   &__form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     @media screen and (min-width: 1200px) {
       flex-direction: row;
@@ -55,6 +56,7 @@
   letter-spacing: 0.06em;
   color: var(--white-background);
   cursor: pointer;
+  margin-inline: auto;
 
   &--icon {
     position: absolute;
