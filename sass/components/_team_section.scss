@@ -25,6 +25,10 @@
     list-style-type: none;
     margin: 0 auto;
     padding: 0px;
+
+    @media screen and (min-width: 1200px) {
+      justify-content: space-between;
+    }
   }
   &__member {
     background: var(--white-background);
