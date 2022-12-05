@@ -17,13 +17,13 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin: auto;
+    margin-left: auto;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    margin: auto;
+    margin-left: auto;
   }
 }
 
